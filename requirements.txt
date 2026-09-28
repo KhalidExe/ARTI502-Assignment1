@@ -1,0 +1,10 @@
+# PyTorch official CUDA wheels (CUDA 13.0 build; RTX 50-series / Blackwell needs CUDA >= 12.8)
+--index-url https://download.pytorch.org/whl/cu130
+--extra-index-url https://pypi.org/simple
+torch==2.14.0+cu130
+torchvision==0.29.0+cu130
+numpy
+pandas
+matplotlib
+psutil
+ipykernel
